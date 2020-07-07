@@ -1,0 +1,19 @@
+{
+  "hosting": [
+    {
+      "target": "AngularFirebaseToDo",
+      "public": "dist/AngularFirebaseToDo",
+      "ignore": [
+        "firebase.json",
+        "**/.*",
+        "**/node_modules/**"
+      ],
+      "rewrites": [
+        {
+          "source": "**",
+          "destination": "/index.html"
+        }
+      ]
+    }
+  ]
+}
